@@ -349,3 +349,52 @@ ol {
     transform: scale(1);
   }
 }
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  #game-container {
+    max-width: 100%;
+    padding: 1rem;
+  }
+
+  #players {
+    flex-wrap: wrap;
+  }
+
+  #players li {
+    width: 90%;
+    margin-bottom: 1rem;
+  }
+
+  #game-board button {
+    width: 5rem;
+    height: 5rem;
+    font-size: 3rem;
+    padding: 0.5rem;
+  }
+
+  #game-over h2 {
+    font-size: 3rem;
+  }
+
+  #game-over p {
+    font-size: 1.5rem;
+  }
+
+  #game-over button {
+    font-size: 1.2rem;
+    padding: 0.3rem 0.7rem;
+  }
+
+  #log {
+    max-width: 90%;
+  }
+
+  #game-hints h2 {
+    font-size: 1.5rem;
+  }
+}
